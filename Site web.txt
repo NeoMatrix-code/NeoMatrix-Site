@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeoMatrix - Services de Bots et Formation</title>
+
+    <!-- Inline CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000; /* Fond noir foncé */
+            color: #fff; /* Texte en blanc pour le contraste */
+            overflow-x: hidden; /* Empêche le défilement horizontal */
+        }
+        header {
+            background: rgba(0, 128, 0, 0.9); /* Vert avec un peu de transparence */
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            position: sticky; /* Rendre l'en-tête collant */
+            top: 0; /* Positionner en haut */
+            z-index: 1000; /* Assurer que l'en-tête reste au-dessus */
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 40px 20px; /* Espacement accru */
+            margin: 20px auto;
+            background-color: rgba(173, 216, 230, 0.8); /* Bleu ciel avec transparence */
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            max-width: 800px; /* Limite la largeur pour un meilleur rendu */
+            color: black; /* Couleur du texte en noir pour un meilleur contraste */
+            opacity: 0; /* Initialement caché pour l'animation */
+            transform: translateY(20px); /* Déplacement vers le bas pour l'animation */
+            transition: opacity 0.5s ease, transform 0.5s ease; /* Transition pour l'animation */
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background: rgba(0, 128, 0, 0.9); /* Vert avec un peu de transparence */
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .services-container {
+            display: flex; /* Utilisation de Flexbox pour l'alignement */
+            flex-direction: column; /* Aligne les services en colonne par défaut */
+            align-items: stretch; /* Étirer les éléments pour qu'ils prennent toute la largeur */
+        }
+        .service {
+            margin: 10px 0; /* Espacement vertical entre les services */
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.9); /* Fond blanc avec transparence pour les services */
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+            opacity: 0; /* Initialement caché pour l'animation */
+            transform: translateY(20px); /* Déplacement vers le bas pour l'animation */
+            transition: opacity 0.5s ease, transform 0.5s ease; /* Transition pour l'animation */
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 15px;
+            background: #008000; /* Vert foncé pour le bouton */
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s ease; /* Transition pour le changement de couleur */
+        }
+        .btn:hover {
+            background: #005700; /* Vert plus foncé au survol */
+        }
+
+        /* Styles pour les écrans plus larges */
+        @media (min-width: 600px) {
+            .services-container {
+                flex-direction: row; /* Change l'alignement en ligne sur les écrans plus larges */
+                flex-wrap: wrap; /* Permet aux éléments de passer à la ligne si nécessaire */
+                justify-content: space-between; /* Espace entre les éléments */
+            }
+            .service {
+                flex: 1 1 calc(45% - 20px); /* Chaque service prend 45% de la largeur avec un espace */
+                margin: 10px; /* Espacement entre les services */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Bienvenue chez NeoMatrix</h1>
+        <nav>
+            <a href="#services">Services</a>
+            <a href="#formation">Formations</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="services">
+        <h2>Nos Services</h2>
+        <div class="services-container">
+            <div class="service">
+                <h3>Déploiement de Bots WhatsApp et Telegram</h3>
+                <p>Nous vous aidons à déployer des bots performants pour améliorer votre communication.</p>
+                <a href="#contact" </p>contactez nous👇 <p><a href="#contact"><a href="Tmpfamily9@gmail.com Sigmasupremus@gmail.com">Tmpfamily9@gmail.com Sigmasupremus@gmail.com</p></a>
+            </div>
+            <div class="service">
+                <h3>Formation en Création de Bots</h3>
+                <p>Apprenez à créer vos propres bots avec nos formations adaptées à tous les niveaux.</p>
+                <a href="#contact" </p>contactez nous👇 <p><a href="#contact"><a href="Tmpfamily9@gmail.com & Sigmasupremus@gmail.com">Tmpfamily9@gmail.com Sigmasupremus@gmail.com</p></a>
+            </div>
+            <div class="service">
+                <h3>Formation en Hacking et Coding</h3>
+                <p>Développez vos compétences en hacking et coding avec nos experts.</p>
+                <a href="#contact" </p>contactez nous👇 <p><a href="Tmpfamily9@gmail.com Sigmasupremus@gmail.com">Tmpfamily9@gmail.com  Sigmasupremus@gmail.com</p></a>
+            </div>
+            <div class="service">
+                <h3>Utilisation de Panel Illimité</h3>
+                <p>Profitez de notre service de panel illimité pour gérer vos bots de manière optimale et sans contraintes.</p>
+                <a href="#contact" </p>contactez nous👇 <p><a href="Tmpfamily9@gmail.com  Sigmasupremus@gmail.com">Tmpfamily9@gmail.com  Sigmasupremus@gmail.com</p></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="formation">
+        <h2>Formations Disponibles</h2>
+        <p>Nous offrons une variété de formations, allant de l'initiation à des niveaux avancés. Contactez-nous pour plus d'informations.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <p>Pour toute question ou demande de renseignement, n'hésitez pas à nous contacter à l'adresse suivante : <a href="neomatrixcorp2@gmail.com">info@neomatrix.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 NeoMatrix. Tous droits réservés.</p>
+    </footer>
+
+    <!-- Inline JavaScript -->
+    <script>
+        // Fonction pour faire apparaître les sections lors du défilement
+        function revealSections() {
+            const sections = document.querySelectorAll('section');
+            const services = document.querySelectorAll('.service');
+
+            sections.forEach(section => {
+                const rect = section.getBoundingClientRect();
+                if (rect.top < window.innerHeight && rect.bottom > 0) {
+                    section.style.opacity = 1; // Rendre visible
+                    section.style.transform = 'translateY(0)'; // Remettre à sa position d'origine
+                }
+            });
+
+            services.forEach(service => {
+                const rect = service.getBoundingClientRect();
+                if (rect.top < window.innerHeight && rect.bottom > 0) {
+                    service.style.opacity = 1; // Rendre visible
+                    service.style.transform = 'translateY(0)'; // Remettre à sa position d'origine
+                }
+            });
+        }
+
+        // Écouteur d'événements pour le défilement
+        window.addEventListener('scroll', revealSections);
+        // Appel initial pour révéler les sections visibles au chargement
+        revealSections():
+    </script>
+
+</body>
+</html>
